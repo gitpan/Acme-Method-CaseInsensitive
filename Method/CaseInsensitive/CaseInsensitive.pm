@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use Carp;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub permute {
 	my($class, $chars, $position) = @_;

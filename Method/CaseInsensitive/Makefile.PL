@@ -4,5 +4,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'Acme::Method::CaseInsensitive',
     'VERSION_FROM'	=> 'CaseInsensitive.pm', # finds $VERSION
-    'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
+    'PREREQ_PM'		=> {
+    	Test::Simple  => 0.45,
+    },
 );
